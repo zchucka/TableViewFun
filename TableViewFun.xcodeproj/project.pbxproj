@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7B6A4F0E2176590B00AD299A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A4F0D2176590B00AD299A /* AppDelegate.swift */; };
-		7B6A4F102176590B00AD299A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A4F0F2176590B00AD299A /* ViewController.swift */; };
+		7B6A4F102176590B00AD299A /* DogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A4F0F2176590B00AD299A /* DogTableViewController.swift */; };
 		7B6A4F132176590B00AD299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A4F112176590B00AD299A /* Main.storyboard */; };
 		7B6A4F152176590D00AD299A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A4F142176590D00AD299A /* Assets.xcassets */; };
 		7B6A4F182176590D00AD299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A4F162176590D00AD299A /* LaunchScreen.storyboard */; };
+		7BA859322178EC3400212612 /* dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA859312178EC3400212612 /* dog.swift */; };
+		7BA859342178F13900212612 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA859332178F13900212612 /* DogTableViewCell.swift */; };
+		7BA859382178FB8600212612 /* DogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA859372178FB8600212612 /* DogDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B6A4F0A2176590B00AD299A /* TableViewFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6A4F0D2176590B00AD299A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B6A4F0F2176590B00AD299A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B6A4F0F2176590B00AD299A /* DogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewController.swift; sourceTree = "<group>"; };
 		7B6A4F122176590B00AD299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B6A4F142176590D00AD299A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6A4F172176590D00AD299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B6A4F192176590D00AD299A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA859312178EC3400212612 /* dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
+		7BA859332178F13900212612 /* DogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		7BA859372178FB8600212612 /* DogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				7B6A4F0D2176590B00AD299A /* AppDelegate.swift */,
-				7B6A4F0F2176590B00AD299A /* ViewController.swift */,
+				7B6A4F0F2176590B00AD299A /* DogTableViewController.swift */,
 				7B6A4F112176590B00AD299A /* Main.storyboard */,
 				7B6A4F142176590D00AD299A /* Assets.xcassets */,
+				7BA859312178EC3400212612 /* dog.swift */,
+				7BA859372178FB8600212612 /* DogDetailViewController.swift */,
+				7BA859332178F13900212612 /* DogTableViewCell.swift */,
 				7B6A4F162176590D00AD299A /* LaunchScreen.storyboard */,
 				7B6A4F192176590D00AD299A /* Info.plist */,
 			);
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6A4F102176590B00AD299A /* ViewController.swift in Sources */,
+				7B6A4F102176590B00AD299A /* DogTableViewController.swift in Sources */,
+				7BA859382178FB8600212612 /* DogDetailViewController.swift in Sources */,
+				7BA859322178EC3400212612 /* dog.swift in Sources */,
+				7BA859342178F13900212612 /* DogTableViewCell.swift in Sources */,
 				7B6A4F0E2176590B00AD299A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
